@@ -1,0 +1,106 @@
+.input-container{
+    width: 379px;
+    height: 388px;
+    margin: 13px 48px 16px 16px;
+}
+.input-container h3{
+    font-size: 16px;
+    color: #5E7A7D;
+}
+.select-h3{
+    margin-top: 40px;
+    position: relative;
+}
+.input{
+    width: 379px;
+    height: 48px;
+    padding: 6px 17px;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    margin-top: 6px;
+    cursor: pointer;
+    text-align: right;
+    font-size: 24px;
+}
+.input:hover{
+    border: 2px solid #26C2AE;
+}
+
+.tips-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tip,.input-tip{
+    height: 48px;
+    width: 117px;
+    border-radius: 5px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35.54px;
+    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.tip{
+    background: #00474B;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.tip:hover{
+    background: #9FE8DF;
+    color: #00474B;
+}
+.tip:focus{
+    background: #26C2AE;
+    color: #00474B;
+}
+.input-tip{
+    background-color: #F3F9FA;
+    text-align: right;
+    padding: 0 13px 0 0;
+}
+
+.input-logo-wraper{
+    position:relative;
+    padding:0;
+    margin:0;
+}
+.input-logo-wraper img{
+    position: absolute;
+    top: 20px;
+    left: 19.26px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.error-message{
+    color: #E17457;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 600px){
+    .input-container{
+        width: 311px;
+        height: fit-content;
+        margin: 0 8px 32px 8px;
+    }
+    .input{
+        width: 311px;
+    }
+    .tip,.input-tip{
+        width: 146px;
+    }
+    .select-h3{
+        margin-top: 32px;
+    }
+}
